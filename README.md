@@ -14,6 +14,8 @@ Effortlessly automate the installation of SteamCMD and a 7 Days to Die game serv
 - Repeatability
 - I haven't encountered a ready solution quite like this
 
+---
+
 ### Clone:
 - You will need to clone this repository to your **/srv/salt** directory to make it work
 ```bash
