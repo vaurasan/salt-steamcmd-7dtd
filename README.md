@@ -30,7 +30,9 @@ You may need to run these install states **twice**, at least with Debian, becaus
 
 SteamCMD installation is fairly quick, but 7 Days to Die server takes 8-12 minutes to download and install. If the 7 Days to Die server installation is very quick, run both installation states again
 
-#### - Install SteamCMD:
+These are not the most idempotent salt-states, but I could not figure a better way
+
+#### - Install SteamCMD (run twice!):
 ```bash
 sudo salt '*' state.apply steam-installed
 ```
