@@ -2,7 +2,7 @@
 
 #### Module for installing SteamCMD and 7 Days to Die server with saltstack
 
-Effortlessly automate the installation of SteamCMD and a 7 Days to Die game server using Saltstack, save time and ensure a consistent installation environment
+Effortlessly automate the installation of **SteamCMD** and **7 Days to Die** game **server** using **Saltstack**, save time and ensure a consistent installation environment
 
 ![7days](.gitignore/7days.png)
 
