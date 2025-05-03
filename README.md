@@ -25,7 +25,7 @@ git clone https://github.com/vaurasan/salt-steamcmd-7dtd.git /srv/salt
 ---
 
 ## How to use with Salt states: 
-You may need to run these install states **twice**, as least with Debian, because of a bug in BookWorm: https://stackoverflow.com/questions/76688863/apt-add-repository-doesnt-work-on-debian-12 (This has given me nightmares)
+You may need to run these install states **twice**, at least with Debian, because of a bug in BookWorm: https://stackoverflow.com/questions/76688863/apt-add-repository-doesnt-work-on-debian-12 (This has given me nightmares)
 #### - Install SteamCMD:
 ```bash
 sudo salt '*' state.apply steam-installed
