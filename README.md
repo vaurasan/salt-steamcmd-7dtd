@@ -2,17 +2,26 @@
 
 #### Module for installing SteamCMD and 7 Days to Die server with saltstack
 
+Effortlessly automate the installation of SteamCMD and a 7 Days to Die game server using Saltstack, save time and ensure a consistent installation environment
+
 ![7days](.gitignore/7days.png)
 
+### Key benefits:
+- Time-saving
+- Consistency
+- Ease of use
+- Manageability
+- Repeatability
 
+### Clone:
+- You will need to clone this repository to your **/srv/salt** directory to make it work
+```bash
+git clone https://github.com/vaurasan/salt-steamcmd-7dtd.git /srv/salt
+```
 
+---
 
-
-
-
-You will need to clone this repository to your /srv/salt directory to make it work
-
-#### Salt states
+## How to use with Salt states:
 #### - Install SteamCMD:
 ```bash
 sudo salt '*' state.apply steam-installed
