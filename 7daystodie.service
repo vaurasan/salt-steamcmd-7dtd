@@ -1,0 +1,18 @@
+[Unit]
+Description=7 Days to Die Dedicated Server
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=10
+User=vagrant
+Group=vagrant
+WorkingDirectory=/home/vagrant/7days
+ExecStartPre=/usr/games/steamcmd +@sSteamCmdForcePlatformType linux +force_install_dir /home/vagrant/7days +login anonymous +app_update 294420 +quit
+ExecStart=/home/vagrant/7days/startserver.sh -configfile=serverconfig.xml
+ExecStop=-/bin/bash -c "echo 'shutdown' | /usr/bin/telnet 127.0.0.1 8081"
+
+[Install]
+WantedBy=multi-user.target
