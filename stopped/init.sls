@@ -1,3 +1,3 @@
 # Palvelimen sammutus
 7daystodie:
-  service.dead:
+  service.dead
