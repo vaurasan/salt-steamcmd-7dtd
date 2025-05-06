@@ -40,9 +40,13 @@ sudo salt '*' state.apply steam-installed
 ```bash
 sudo salt '*' state.apply 7days-installed
 ```
-#### - Reload daemons and start 7 Days to Die server:
+#### - Reload daemons and start 7 Days to Die server + enable on startup:
 ```bash
 sudo salt '*' state.apply running
+```
+#### - Stop 7 Days to Die server:
+```bash
+sudo salt '*' state.apply stopped
 ```
 
 ---
