@@ -17,9 +17,10 @@ Effortlessly automate the installation of **SteamCMD** and **7 Days to Die** gam
 ---
 
 ### Clone:
-- You will need to clone this repository to your **/srv/salt** directory to make it work
+- You need a working Salt master-minion architecture
+- Clone this repository to your Salt masters **/srv/salt** directory to make it work
 ```bash
-git clone https://github.com/vaurasan/salt-steamcmd-7dtd.git /srv/salt
+sudo git clone https://github.com/vaurasan/salt-steamcmd-7dtd.git /srv/salt
 ```
 
 ---
