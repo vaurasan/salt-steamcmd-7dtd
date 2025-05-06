@@ -49,7 +49,8 @@ sudo salt '*' state.apply running
 
 ### Disclaimer
 
-#### This setup is created for local testing purposes only. For online use, security measures must be taken into account
+#### - This setup is created for local testing purposes only
+#### - For online use, security measures must be implemented
 
 ---
 
