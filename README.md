@@ -26,11 +26,11 @@ git clone https://github.com/vaurasan/salt-steamcmd-7dtd.git /srv/salt
 
 ## How to use:
 
-You may need to run these install states **twice**, at least with Debian, because of a bug in BookWorm: https://stackoverflow.com/questions/76688863/apt-add-repository-doesnt-work-on-debian-12
+You need to run SteamCMD install state **twice**, at least with Debian, because of a bug in BookWorm: https://stackoverflow.com/questions/76688863/apt-add-repository-doesnt-work-on-debian-12
 
 SteamCMD installation is fairly quick, but 7 Days to Die server takes 8-12 minutes to download and install. If the 7 Days to Die server installation is very quick, run both installation states again
 
-These are not the most idempotent salt-states, but I could not figure a better way
+These are not the most idempotent salt-states, but for now, I could not figure a better way
 
 #### - Install SteamCMD (run twice!):
 ```bash
