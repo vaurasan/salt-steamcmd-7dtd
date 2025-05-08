@@ -59,7 +59,7 @@ sudo salt '*' state.apply stopped
 
 ---
 
-Tested with
+Tested 7.5.2025 with
 - Windows 11 Pro 24H2
 - Oracle VirtualBox Version 7.1.4 r165100 (Qt6.5.3) - Debian 12 GNU/Linux (bookworm)
 - Vagrant 2.4.3
